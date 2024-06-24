@@ -7,6 +7,7 @@ import ThemedScrollView from "@/components/Theme/ThemedScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
 import { Colors } from "@/constants/Colors";
+import SearchInputAndButton from "@/components/inputs/SearchInputAndButton";
 
 export default function HomeScreen() {
   return (
@@ -21,8 +22,10 @@ export default function HomeScreen() {
         <ThemedText type="title" style={{ color: Colors.light.text_title }}>
           Haz las busquedas que necesites.
         </ThemedText>
-        
 
+        <SearchInputAndButton
+        />
+        
       </ThemedView>
     </ThemedScrollView>
   );
