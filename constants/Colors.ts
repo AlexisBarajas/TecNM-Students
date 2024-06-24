@@ -5,15 +5,23 @@
 
 const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
+const primaryColor = '#2E4B96';
 
 export const Colors = {
   light: {
     text: '#11181C',
     background: '#fff',
     tint: tintColorLight,
-    icon: '#687076',
+    // icon: '#687076',
     tabIconDefault: '#687076',
     tabIconSelected: tintColorLight,
+
+    icon: '#FAFAFA',
+    background_icon: primaryColor,
+    header_background: '#ECECEC',
+    headerLabel: '#242424',
+    body_background: '#F9F9F9',
+    text_title: primaryColor,
   },
   dark: {
     text: '#ECEDEE',
